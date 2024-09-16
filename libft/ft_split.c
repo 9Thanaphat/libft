@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ttangcha <ttangcha@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thanaphat <thanaphat@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/02 12:44:46 by ttangcha          #+#    #+#             */
-/*   Updated: 2024/09/15 18:23:38 by ttangcha         ###   ########.fr       */
+/*   Updated: 2024/09/16 20:30:43 by thanaphat        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,7 @@ char	**ft_split(char const *s, char c)
 	{
 		split[i] = malloc((word_len(s, c, (i + 1)) + 1) * sizeof(char));
 		if (!split[i])
-			free_split(split, i);
+			return (free_split(split, i));
 		while (++j < word_len(s, c, (i + 1)))
 			split[i][j] = s[start_word(s, c, i + 1) + j];
 		split[i][j] = '\0';
