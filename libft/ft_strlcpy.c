@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ttangcha <ttangcha@student.42.fr>          +#+  +:+       +#+        */
+/*   By: thanaphat <thanaphat@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/29 12:19:44 by ttangcha          #+#    #+#             */
-/*   Updated: 2024/09/07 18:56:26 by ttangcha         ###   ########.fr       */
+/*   Updated: 2024/09/17 18:59:50 by thanaphat        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	unsigned int	i;
+	size_t	i;
 
 	i = 0;
 	if (size == 0)
