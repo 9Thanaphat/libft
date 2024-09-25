@@ -49,9 +49,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	i = 0;
 	return (strjoin);
 }
-//#include <stdio.h>
-
-// int	main(void)
-// {
-// 	printf("return : %s \n",ft_strjoin("42", ""));
-// }

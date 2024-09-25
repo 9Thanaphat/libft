@@ -15,13 +15,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (ft_strlen(src));
 }
-
-/*int	main(void)
-{
-	char	dest[] = "";
-	char	src[] = "Hello World!";
-
-	printf("return value : %u\n",ft_strlcpy(dest, src, 3));
-	printf("Des : %s", dest);
-
-}*/

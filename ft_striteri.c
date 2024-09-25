@@ -11,16 +11,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-// void myfunc(unsigned int i, char *c) //my function
-// {
-// 	printf("%d \n", i);
-// 	if (c[i] >= 'a' && c[i] <= 'z')
-// 		c[i] -= 32;
-// }
-
-// int	main(void)
-// {
-// 	char str[] = "Hello World";
-// 	ft_striteri(str, myfunc);
-// 	printf("%s \n", str);
-// }

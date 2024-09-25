@@ -23,11 +23,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	big[] = "aaabcabcd";
-// 	char	little[] = "a";
-
-// 	printf("%s", ft_strnstr(big, little, -1));
-// }

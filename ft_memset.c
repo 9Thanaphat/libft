@@ -14,10 +14,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-// int	main(void)
-// {
-// 	char str[] = "Hello!";
-// 	ft_memset(str, '#', 5);
-// 	printf("----- > %s \n",str);
-// }

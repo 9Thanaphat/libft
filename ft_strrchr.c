@@ -15,12 +15,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// #include <string.h>
-
-// int	main(void)
-// {
-// 	printf("strrchr returned value ----> %s \n", strrchr("Helloe",'l'));
-// 	printf("ft_strrchr returned value ----> %s \n", ft_strrchr("Helloe",'l'));
-// 	return (0);
-// }

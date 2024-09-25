@@ -23,9 +23,3 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n < 10)
 		ft_putchar_fd((n % 10) + 48, fd);
 }
-
-// int	main(void)
-// {
-// 	ft_putnbr_fd(2147483647, 1);
-// 	return (0);
-// }

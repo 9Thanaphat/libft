@@ -118,22 +118,3 @@ char	**ft_split(char const *s, char c)
 	split[i] = NULL;
 	return (split);
 }
-
-/*int	main(void)
-{
-	char *str = "Hello,,,,Test,Str,,,Spliz";
-	char d = ',';
-	int	i;
-
-	//printf("count word---> %d\n", count_word(str, d));
-	//printf("test word len ---> %d\n", word_len(str, d,4));
-	//printf("test start word ---> %d\n", start_word(str, d,4));
-
-	i = 0;
-	while (i < count_word(str,d))
-	{
-		printf("--> %s\n",ft_split(str, d)[i]);
-		i++;
-	}
-	return (0);
-}*/

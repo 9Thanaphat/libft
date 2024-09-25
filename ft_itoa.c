@@ -43,10 +43,3 @@ char	*ft_itoa(int n)
 		strnum[0] = '-';
 	return (strnum);
 }
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int	i = -2147483648;
-// 	printf("len : %d\n",ft_intlen(i));
-// 	printf("str : %s\n",ft_itoa(i));
-// }

@@ -27,11 +27,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (num * neg);
 }
-
-// int	main(void)
-// {
-// 	char a[] = "+101";
-// 	printf("ft_atoi : %d \n",ft_atoi(a));
-// 	printf("atoi : %d \n",atoi(a));
-// 	return (0);
-// }
