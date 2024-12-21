@@ -1,33 +1,12 @@
 #include "libft.h"
 
-static int	ft_strjoinlen(char const *s1, char const *s2)
-{
-	int	i;
-	int	c;
-
-	i = 0;
-	c = 0;
-	while (s1[i])
-	{
-		i++;
-		c++;
-	}
-	i = 0;
-	while (s2[i])
-	{
-		i++;
-		c++;
-	}
-	return (c);
-}
-
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*strjoin;
 	int		i;
 	int		j;
 
-	strjoin = (char *) malloc (ft_strjoinlen(s1, s2) + 1 * sizeof(char));
+	strjoin = (char *) malloc (ft_strlen(s1) + ft_strlen(s2) * sizeof(char));
 	if (strjoin == NULL)
 		return (NULL);
 	i = 0;
